@@ -13,7 +13,7 @@ function selectedSubreddit(state = 'reactjs', action) {
   }
 }
 
-function posts (state = {
+function posts(state = {
   isFetching: false,
   didInvalidate: false,
   items: []
